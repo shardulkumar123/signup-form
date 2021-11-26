@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!-- Font Awesome for using Icons-->
+    <script src="https://kit.fontawesome.com/3ed42d1fa0.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- Bootstrap Here -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</style>
+<body style="background: url(./image/mesh-1430108.png);">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(43, 13, 43) ;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Company Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                </ul>
+    </nav>
+    <div class="container" style="color: whitesmoke;">
+        <form>
+            <h1 class="my-3">Create a new account - Sign Up Here !</h1>
+            <hr style="border: 5px solid rgb(43, 13, 43) ; color: rgb(243, 12, 243); width: 690px;">
+            <div class="mb-3 my-2">
+              <label for="fname" class="form-label">First Name:</label>
+              <input type="text" class="form-control" id="fname" aria-describedby="emailHelp" style="width: 400px;" maxlength="12" required>
+            </div>
+            <div class="mb-3">
+              <label for="lname" class="form-label">Last Name:</label>
+              <input type="text" class="form-control" id="lname" aria-describedby="emailHelp" style="width: 400px;" maxlength="12" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address:</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" style="width: 400px;" required>
+              <div id="emailHelp" class="form-text" style="color: whitesmoke;">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="pass" class="form-label">Password (minimum length 8):</label>
+              <input type="password" class="form-control" id="pass" style="width: 400px;" minlength="8" required>
+            </div>
+            <div class="mb-3">
+              <label for="cpss" class="form-label">Confirm Password:</label>
+              <input type="password" class="form-control" id="cpass" style="width: 400px;" minlength="8" required>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color:rgb(32, 95, 32); color: whitesmoke; border-radius: 10px;">Sign Up</button>
+            <button type="reset" class="btn btn-primary" style="background-color:rgb(156, 37, 37); color: whitesmoke; border-radius:10px; font-size: 19px;">Reset</button>
+          </form>
+    </div>
+    </div>
+</body>
+</html>
